@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+  <head>
+    <title>CatDany's JS Game</title>
+    <meta charset="UTF-8">
+    <link rel='stylesheet' type='text/css' href='stylesheet.css'/>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src='gamescript.js'></script>
+  </head>
+  <body>
+    <h2>
+      Score: <span id="score">0</span>
+      <br>
+      Lives: <span id="lives">0</span>
+      <br>
+      <a href="https://twitter.com/share?text=Check%20out%20this%20game%20by%20%40CatDanyRU" class="twitter-share-button" data-show-count="false">Share on Twitter</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </h2>
+    <h2>
+      <a href="" class="how-to-link">How to Play</a>
+      <div class="how-to">
+        <p><em>Your goal is to catch falling rocks.</em></p>
+        <p><em>Use Left Mouse Click and Right Mouse Click to move left and right respectively.</em></p>
+        <p><em>Gray rocks give you 1 point for catching, blue ones give you 4.</em></p>
+        <p><em>After the game is over, all your points are converted to credits. Credits are saved between sessions!</em></p>
+        <p><em><small>Created by <a href="https://twitter.com/CatDanyRU">@CatDanyRU</a></small></em></p>
+      </div>
+    </h2>
+    <canvas id="canvas_game" width="400" height="400"></canvas>
+    <p title="You earn credits for playing the game!">Balance: <span id="credits">0</span> Credits</p>
+    <p>You can spend your credits on:</p>
+    <p>- <a href="" class="shop-link" _item="extraLife1">One Extra Life in the Next Game [10 Credits]</a></p>
+    <p>- <a href="" class="shop-link" _item="extraLife5">Five Extra Lives in the Next Game [45 Credits]</a></p>
+    <p>- <a href="" class="shop-link" _item="extraLife20">Twenty Extra Lives in the Next Game [175 Credits]</a></p>
+    <p>- <a href="" class="shop-charity">Charity</a>
+  </body>
+</html>
